@@ -1,0 +1,11 @@
+
+<div class="form">
+    <h1>Angular To-Do App</h1>
+    <input type="text" [(ngModel)]="mytext">
+    <button (click)="addlist()" class="add">add</button>
+    <div id="tlist">
+        <li *ngFor="let tesk of mytask ; let i = index" >{{tesk}}<button id="delbtn" (click)="deletelist(i)">delete</button></li>
+       
+    </div>
+    
+</div>

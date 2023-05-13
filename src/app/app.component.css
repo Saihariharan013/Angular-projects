@@ -1,0 +1,33 @@
+#btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 5px solid black;
+    margin: 20px;
+    padding: 50px;
+}
+.nav{
+    display: flex;
+  
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 10px;
+    justify-content: flex-end;
+    border-radius: 5px;
+   
+}
+.nav :hover{
+    background-color: grey;
+    border-radius: 5px;
+    
+}
+li{
+    list-style: none;
+    padding: 10px;
+    margin: 0px 15px;
+    cursor: pointer;
+
+}
